@@ -15,7 +15,14 @@ To write a Python program using **NumPy** that finds the indices where elements 
 ## 🧾 Program
 
 Add code here
-
+```
+import numpy as np
+x=np.array(eval(input()))
+y=np.array(eval(input()))
+print(np.where(x>y))
+print(np.where(x==y))
+```
 ## Output
+<img width="1257" height="284" alt="image" src="https://github.com/user-attachments/assets/60265676-9cd5-4e38-853e-4a107a08d92d" />
 
 ## Result
